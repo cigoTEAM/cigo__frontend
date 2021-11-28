@@ -48,9 +48,51 @@ body {
   --white: #FFFF;
   --green: #1AB9AF;
   --orange: #FF9900;
+  --darkGreen: #096C66;
+  --ligthGreen: #AAFFFA;
+  --pink: #f783ac;
+}
+
+
+/* Button E */
+
+.btn__e {
+  position: absolute;
+  top: 50%;
+  right: 3rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: var(--orange);
+  border-radius: 50%;
+  border: none;
+  font-size: 5rem;
+  color: var(--white);
+}
+
+/* Discount */
+
+.section__discount {
+  height: 4rem;
+  background: var(--darkGreen);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.discount__action {
+  padding-left: 0.7rem;
+  color: var(--ligthGreen);
+}
+
+.discount__action:hover {
+  color: var(--pink);
 }
 
 /* Header */
+
 .header__container {
   background-color: var(--green);
   height: 7.3rem;
@@ -81,7 +123,8 @@ body {
   list-style: none ;
   color: var(--white);
   font-size: 1.8rem;
-  gap: 4.4rem;
+  gap: 1.5rem;
+  font-weight: 700;
 }
 
 .header__navbar ul li a {
@@ -89,6 +132,191 @@ body {
 }
 
 .header__navbar ul li a:hover {
+  font-size: 2.5rem;
+  text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.header__button {
+  background-color: var(--orange);
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  border: none;
+  color: var(--white);
+  padding: 1.4rem 0;
+  width: 21.9rem;
+  height: 4.5rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header__button:hover {
+  background-color: var(--white);
   color: var(--orange);
 }
 
+/* Section KNOW */
+
+.section__Know {
+  /*background-image: url(../assets/know__background.jpeg);*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  height: 41.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 6rem;
+  color: var(--green);
+  font-size: 3.6rem;
+  font-weight: 100;
+  gap: 2.6rem;
+}
+
+.span_ {
+  font-weight: 900;
+}
+
+.button__Know {
+  color: var(--white);
+  height: 4.5rem;
+  width: 21.5rem;
+  background-color: var(--green);
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button__Know:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* Section BENEFITS */
+
+.section__benefits {
+  height: 56.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5.4rem 0 0 0;
+  background-color: var(--green);
+}
+
+.section__benefits h2 {
+  color: var(--white);
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+/* Section News */
+
+.section__news {
+  height: 56.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5.4rem 0 0 0;
+  background-color: var(--white);
+}
+
+.section__news h2 {
+  color: var(--green);
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+
+/* Section CONTACT */
+
+.container__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  width: 70%;
+  border: 1px solid var(--green)
+}
+
+/* Section Historias */
+
+.section__historias {
+  height: 56.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5.4rem 0 0 0;
+  background-color: var(--white);
+}
+
+.section__historias h2 {
+  color: var(--green);
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+/* Footer */
+
+.footer {
+  height: 42.8rem;
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__footer {
+  padding: 0 5rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.footer__form p {
+  color: var(--white);
+  font-size: 2.4rem;
+}
+
+.form__input {
+  background-color: var(--green);
+  width: 32.749rem;
+  height: 5.684rem;
+  border-radius: 2rem;
+  border: 1px solid var(--white)
+}
+:focus {
+  outline: solid 2px var(--orange);
+}
+
+::placeholder {
+  padding: 0.8rem;
+  color: var(--white);
+}
+
+.form__submit {
+  width: 32.749rem;
+  height: 3.609rem;
+  background: var(--white);
+  border-radius: 20px;
+  border: none;
+  color: var(--green);
+}
+
+
+.footer__socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.1rem;
+  color: var(--white);
+  font-size: 2.5rem;
+}
