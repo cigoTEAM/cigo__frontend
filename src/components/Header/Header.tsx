@@ -6,29 +6,29 @@ const Header = () => {
     return (
         <>
             <div className="header__container">
-                <a href="#" className="header__logo-container">
+                <a href="http://cigo-co.netlify.app" className="header__logo-container">
                     <img  className="header__logo" alt="" src={logo}/>
                     <p>CIGO</p>
                 </a>
                 <nav className="header__navbar">
                     <ul>
                         <li>
-                            <a href="#">INICIO</a>
+                            <a href="http://cigo-co.netlify.app">INICIO</a>
                         </li>
                         <li>
-                            <a href="#">SOBRE NOSOTROS</a>
+                            <a href="http://cigo-co.netlify.app">SOBRE NOSOTROS</a>
                         </li>
                         <li>
-                            <a href="#">ABOGADOS</a>
+                            <a href="http://cigo-co.netlify.app">ABOGADOS</a>
                         </li>
                         <li>
-                            <a href="#">VOLUNTARIADOS</a>
+                            <a href="http://cigo-co.netlify.app">VOLUNTARIADOS</a>
                         </li>
                         <li>
-                            <a href="#">OPORTUNIDADES</a>
+                            <a href="http://cigo-co.netlify.app">OPORTUNIDADES</a>
                         </li>
                         <li>
-                            <a href="#">CONTACTO</a>
+                            <a href="http://cigo-co.netlify.app">CONTACTO</a>
                         </li>
                     </ul>
                 </nav>
