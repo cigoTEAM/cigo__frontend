@@ -1,0 +1,94 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* CSS Reset*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:active,
+a:focus {
+  outline: none;
+}
+
+a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body, html, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Variables */
+
+:root {
+  --gray: #F3F3F3;
+  --white: #FFFF;
+  --green: #1AB9AF;
+  --orange: #FF9900;
+}
+
+/* Header */
+.header__container {
+  background-color: var(--green);
+  height: 7.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo-container {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.header__logo-container p {
+  font-size: 3.6rem;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.header__logo-container img {
+}
+
+.header__navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none ;
+  color: var(--white);
+  font-size: 1.8rem;
+  gap: 4.4rem;
+}
+
+.header__navbar ul li a {
+  cursor: pointer;
+}
+
+.header__navbar ul li a:hover {
+  color: var(--orange);
+}
+
